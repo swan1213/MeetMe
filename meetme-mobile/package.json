@@ -1,0 +1,33 @@
+{
+  "name": "meetme-mobile",
+  "version": "0.0.0",
+  "description": "Hello Exponent!",
+  "author": null,
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "rndebugger-open"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "~4.0.0",
+    "axios": "^0.15.3",
+    "expo": "^14.0.0",
+    "native-base": "^2.0.12",
+    "react": "~15.4.0",
+    "react-native": "https://github.com/exponent/react-native/archive/sdk-14.0.0.tar.gz",
+    "react-native-card-view": "^0.0.3",
+    "react-native-contacts": "^0.8.1",
+    "react-native-debugger-open": "^0.3.2",
+    "react-native-elements": "^0.10.2",
+    "react-native-extended-stylesheet": "^0.3.2",
+    "react-native-modal-datetime-picker": "^4.1.0",
+    "react-native-star-rating": "^1.0.7",
+    "react-navigation": "^1.0.0-beta.6",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-promise-middleware": "^4.2.0"
+  },
+  "devDependencies": {
+    "redux-logger": "^2.8.2"
+  }
+}
